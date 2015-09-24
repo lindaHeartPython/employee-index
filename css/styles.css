@@ -50,7 +50,7 @@ footer {
 }
 .container {
 	padding: 50px;
-	min-height: 500px;
+	height: 700px;
 }
 .section1, .section2, .section3 {
 	padding: 20px;
