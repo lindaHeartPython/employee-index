@@ -7,6 +7,7 @@ header {
 	background: gray;
 	margin-top: -20px;
 	position: relative;
+	margin-bottom: 0px;
 }
 header img {
   width:100px;
@@ -28,7 +29,8 @@ h1 {
 h2 {
    text-align: center;
    padding: 0px;
-   margin: 0px; 
+   margin: 0px;
+   margin-bottom: 50px; 
 }
 a {
 	color: inherit;
@@ -45,9 +47,13 @@ a {
 	padding: 50px;
 }
 .section1, .section2, .section3 {
-	width: 33%;
-	margin: 0px;
-	padding: 0px;
+	padding: 20px;
+	width: 29%;
+	border-right: 1px solid gray;
+	margin: 5px;
+}
+.section3{
+    border: none;
 }
 .container img {
 	float: left;
@@ -55,6 +61,8 @@ a {
 .description {
 	float: left;
 	padding: 30px;
+	text-align: center;
+	line-height: 30px;
 }
 .section1 {
 	float: left;
