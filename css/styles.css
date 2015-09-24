@@ -1,9 +1,67 @@
-.img-circle {
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #40535c;
+}
+header {
+	height: 100px;
+	background: gray;
+	margin-top: -20px;
+	position: relative;
+}
+header img {
+  width:100px;
+  height:80px;
+  float: left;
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+}
+h1 {
+   left: 200px;
+   font-size: 28px;
+   font-weight: 300px;
+   position: absolute;
+   left: 110px;
+   top: 23px;
+   color: white;
+}
+h2 {
+   text-align: center;
+   padding: 0px;
+   margin: 0px; 
+}
+a {
+	color: inherit;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 600;
+}
+.container img {
 	border: 2px solid #DDD;
 	width: 100px;
-	display: inline;
-}
 
+}
 .container {
 	padding: 50px;
+}
+.section1, .section2, .section3 {
+	width: 33%;
+	margin: 0px;
+	padding: 0px;
+}
+.container img {
+	float: left;
+}
+.description {
+	float: left;
+	padding: 30px;
+}
+.section1 {
+	float: left;
+}
+.section2 {
+	float: left;
+}
+.section3 {
+	float: left;
 }
